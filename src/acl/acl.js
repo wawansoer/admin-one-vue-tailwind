@@ -1,6 +1,6 @@
 // import Vue from "vue";
 // import { AclCreate, AclInstaller, AclRule } from "vue-acl";
-// import router from "@/router";
+// import router from "@/router/index";
 
 // Vue.use(AclInstaller);
 
@@ -17,5 +17,6 @@
 //         root: new AclRule("root").generate(),
 //         administrator: new AclRule("administrator").generate(),
 //         root_admin: new AclRule("root").or("administrator").generate(),
+//         all: new AclRule("root").or("administrator").generate(),
 //     },
 // });

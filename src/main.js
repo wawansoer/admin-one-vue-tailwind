@@ -9,7 +9,7 @@ import { darkModeKey, styleKey } from "@/config.js";
 
 import "./css/main.css";
 
-// import acl from './acl/acl'
+// import acl from '@/acl/acl'
 
 /* Init Pinia */
 const pinia = createPinia();
