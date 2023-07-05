@@ -9,15 +9,12 @@ import { darkModeKey, styleKey } from "@/config.js";
 
 import "./css/main.css";
 
-// import acl from './acl/acl'
-
 /* Init Pinia */
 const pinia = createPinia();
 
 /* Create Vue app */
 createApp(App).use(
-  router,
-  // acl
+  router
 ).
   use(pinia).mount("#app");
 
